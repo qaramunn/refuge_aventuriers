@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="refuge_aventuriers.Chrome">
+        <div class="refuge dvh-100 d-flex flex-column">
+<!--            <Navbar />-->
+            <div class="refuge-content flex-grow-1 overflow-auto">
+                <t t-component="refuge.mainScreen.component"
+                    t-props="refuge.mainScreen.props"/>
+            </div>
+        </div>
+    </t>
+
+</templates>
