@@ -27,7 +27,9 @@ export class RefugeStore extends Reactive {
     }
 
     async _processData(loadedData) {
-        return true // TODO: Changeme, process data
+
+        this.products = loadedData["product.template"];
+        return true
     }
 
 

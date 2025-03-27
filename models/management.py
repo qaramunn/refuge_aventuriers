@@ -8,4 +8,6 @@ class RefugeManagement(models.Model):
     @api.model
     def load_refuge_data(self):
         return {
+            "product.template": self.env["product.template"].search_read(
+                fields=["name", "id"]),
         }

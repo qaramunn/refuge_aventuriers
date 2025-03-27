@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
-     <t t-name="refuge_aventuriers.MainScreen">
-         <p>HELLO</p>
+    <t t-name="refuge_aventuriers.MainScreen">
+        <p class="title">Refuge des aventuriers</p>
+        <div class="main_class">
+            <div class="main-button"
+                      t-on-click="() => refuge.showScreen('ProductListScreen')">Produits</div>
+        </div>
     </t>
 </templates>
