@@ -2,15 +2,15 @@
 <templates id="template" xml:space="preserve">
     <t t-name="refuge_aventuriers.ProductListScreen">
         <div class="product_list_class">
-            <strong>Product List</strong>
+            <strong>Liste des produits</strong>
 
                 <t t-foreach="refuge.products" t-as="product" t-key="product.id">
                     <div class="product_item">
-<!--                        <img t-att-src="product.image_1920" alt="Product Image" class="product_image"/>-->
                         <ProductLine name="product.name" productId="product.id"/>
+                        <span><t t-esc="product.list_price"/> €</span>
                     </div>
                 </t>
-            <div class="back-button" t-on-click="() => this.showScreen('MainScreen')">Retour</div>
+            <div class="back-button" t-on-click="() => refuge.showScreen('MainScreen')">Retour</div>
         </div>
     </t>
 </templates>
