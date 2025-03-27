@@ -9,5 +9,5 @@ class RefugeManagement(models.Model):
     def load_refuge_data(self):
         return {
             "product.template": self.env["product.template"].search_read(
-                fields=["name", "id", "list_price"]),
+                fields=["name", "id", "list_price", "sale_ok"]),
         }

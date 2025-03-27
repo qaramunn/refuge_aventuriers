@@ -1,0 +1,35 @@
+/* Style pour le titre */
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Conteneur principal centré */
+.main_class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Bouton principal */
+.main-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Effet au survol du bouton */
+.main-button:hover {
+    background-color: #0056b3;
+}

@@ -5,8 +5,11 @@
             <strong>Les listes de produit</strong>
 
             <t t-foreach="refuge.products" t-as="product" t-key="product.id">
-                <div class="product_item">
-                    <ProductLine name="product.name" price="product.list_price" productId="product.id"/>
+                <div t-if="product.sale_ok" class="product_item">
+                    <span><t t-esc="product.sale_ok"/></span>
+                    <ProductLine name="product.name" productId="product.id"/>
+                    <span><t t-esc="product.list_price"/>€</span>
+
                 </div>
             </t>
 
