@@ -2,7 +2,7 @@
 
 import { Component } from "@odoo/owl";
 import { registry } from "@web/core/registry";
-import { useRefuge } from "@refuge_aventuriers/app/store/tetras_hook";
+import { useRefuge } from "@refuge_aventuriers/app/store/refuge_hook";
 
 export class ProductFormScreenFormScreen extends Component {
     static template = "refuge_aventuriers.ProductFormScreen";

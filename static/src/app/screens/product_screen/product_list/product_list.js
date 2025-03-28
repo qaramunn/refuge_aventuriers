@@ -12,7 +12,9 @@ export class ProductListScreen extends Component {
     setup() {
         this.refuge = useRefuge();
     }
+        async onProductClick(product) {
+        this.refuge.showScreen("ProductFormScreen", {"product": product})
+    }
 
 }
-
 registry.category("refuge_screens").add("ProductListScreen", ProductListScreen);

@@ -10,5 +10,11 @@ export class ProductLine extends Component {
         name: String,
         productId: Number,
         onClick: { type: Function, optional: true },
+
+        onClickProduct() {
+        if (this.props.onClick) {
+            this.props.onClick();
+        }
+        }
     };
 }
