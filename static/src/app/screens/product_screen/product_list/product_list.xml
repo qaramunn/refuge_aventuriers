@@ -12,7 +12,7 @@
                 </div>
             </t>
 
-            <div class="back-button" t-on-click="() => refuge.showScreen('MainScreen')">Retour</div>
+            <div class="back-button" t-on-click="() => refuge.showScreen('MainScreen')">Back</div>
         </div>
     </t>
 </templates>
