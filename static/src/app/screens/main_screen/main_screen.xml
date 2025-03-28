@@ -7,9 +7,10 @@
             <div class="container">
                 <p class="title" style="color: white;">Refuge des aventuriers</p>
                 <div class="button-container">
-                    <div class="button" t-on-click="() => refuge.showScreen('ProductListScreen')">
-                        Voir les produits
-                    </div>
+                    <div class="button" t-on-click="() => refuge.showScreen('CategoryScreen')">
+    Voir les produits
+</div>
+
                 </div>
             </div>
         </body>
