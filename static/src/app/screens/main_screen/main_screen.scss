@@ -1,6 +1,19 @@
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7; /* Réduction de l’opacité à 70% */
+    filter: brightness(0.9); /* Assombrit légèrement l’image pour un meilleur contraste */
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('bar-background.jpg') no-repeat center center/cover;
+    background: url('resto.jpg') no-repeat center center/cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,6 +23,7 @@ body {
     color: white;
     backdrop-filter: blur(5px);
 }
+
 
 .container {
     text-align: center;
@@ -27,7 +41,8 @@ body {
     margin-bottom: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #899;
+
 }
 
 .button-container {
