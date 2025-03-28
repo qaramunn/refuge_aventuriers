@@ -13,9 +13,6 @@ export class ProductListScreen extends Component {
         this.refuge = useRefuge();
     }
 
-//    async onControlClick(control) {
-//        this.tetras.showScreen("ControlFormScreen", {"control": control})
-//    }
 }
 
 registry.category("refuge_screens").add("ProductListScreen", ProductListScreen);
