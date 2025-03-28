@@ -5,7 +5,7 @@
             <!-- Image de fond -->
         <img t-att-src="'/refuge_aventuriers/static/img/resto.jpg'" class="background-image"/>
             <div class="container">
-                <p class="title">Refuge des aventuriers</p>
+                <p class="title" style="color: white;">Refuge des aventuriers</p>
                 <div class="button-container">
                     <div class="button" t-on-click="() => refuge.showScreen('ProductListScreen')">
                         Voir les produits

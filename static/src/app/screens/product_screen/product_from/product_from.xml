@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
      <t t-name="refuge_aventuriers.ProductFormScreen">
-         <div t-on-click="() => this.refuge.showScreen('ProductListScreen')">Retour</div>
+         <div t-on-click="() => this.refuge.showScreen('ProductListScreen')" class="return-button">
+            Retour
+         </div>
     </t>
 </templates>
