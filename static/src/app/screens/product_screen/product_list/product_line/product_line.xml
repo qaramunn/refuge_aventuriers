@@ -3,7 +3,6 @@
      <t t-name="refuge_aventuriers.ProductLine">
          <tr t-on-click="props.onClick">
              <td class="product-list-name"><t t-esc="props.name" /></td>
-<!--             <td class="product-list-quantity">Stock: <t t-esc="props.quantity" /></td>-->
          </tr>
     </t>
 </templates>
